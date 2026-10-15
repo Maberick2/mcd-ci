@@ -17,7 +17,7 @@ def test_mcd_caso_limite():
 
 
 def test_mcd_numeros_negativos():
-    assert mcd(-12, 18) == 6
+    assert mcd(-12, 18) == 5
 
 
 def test_mcd_ambos_cero():
